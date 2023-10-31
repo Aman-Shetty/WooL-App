@@ -2,7 +2,7 @@ import React from "react";
 import { Button, IconButton } from "@material-tailwind/react";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
 
-export function DefaultPagination() {
+const DefaultPagination = () => {
   const [active, setActive] = React.useState(1);
 
   const getItemProps = (index) => ({
@@ -51,4 +51,6 @@ export function DefaultPagination() {
       </Button>
     </div>
   );
-}
+};
+
+export default DefaultPagination;
