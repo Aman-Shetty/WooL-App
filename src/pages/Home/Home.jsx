@@ -1,5 +1,5 @@
 import { NavBar, CarouselImage, Footer } from "../../components";
-import { default as Body } from "./Body";
+import { default as Body } from "./components/Body";
 
 const Home = () => {
   return (

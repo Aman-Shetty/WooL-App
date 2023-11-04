@@ -55,7 +55,7 @@ const NewsCard = () => {
             </Typography>
             <a href="#" className="inline-block">
               <Button variant="text" className="flex items-center gap-2">
-                Learn More
+                Read More
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
